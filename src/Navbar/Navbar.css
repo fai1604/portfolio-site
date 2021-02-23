@@ -1,0 +1,30 @@
+.nv {
+    font-family: Spartan;
+}
+
+.menu {
+    /* margin: 0 auto; */
+    display: flex;
+    text-align: center;
+    color: #312c51;
+
+}
+
+.nav-link:hover {
+    color: #f0c38e !important;
+}
+
+.nav-link.active {
+    color: #f0c38e !important;
+}
+
+@media screen and (max-width: 380px) {
+    .menu {
+        /* text-align: left; */
+    }
+
+    .menu:active {
+        opacity: 0.8;
+    }
+}
+

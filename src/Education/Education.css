@@ -1,0 +1,51 @@
+.education-content {
+    margin-top: 12%;
+}
+
+.education-category-header {
+    font-family: Spartan;
+    font-weight: 700;
+    color: #f1aa9b;
+}
+
+.education-desc {
+    font-family: Poppins;
+    text-align: justify;
+}
+
+.education-toast {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.education-toast-body {
+    text-align: left;
+}
+
+.education-badge {
+    font-size: 13px !important;
+    text-align: left;
+}
+
+.education-badge-p {
+    color: black;
+    font-family: Poppins;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 380px) {
+    .hidden {
+        visibility: hidden;
+    }
+
+    .education-content {
+        padding-top: 20%;
+    }
+}

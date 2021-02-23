@@ -1,0 +1,39 @@
+.about-content {
+    position: relative;
+}
+
+.about-content-container {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   */
+}
+
+.image {
+    width: 20rem;
+    height:20rem;
+    justify-content: left;
+}
+
+.about-header {
+    font-family: Spartan;
+    font-weight: 700;
+    color: #f1aa9b;
+}
+
+.about-desc {
+    text-align: left !important;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+.highlighted {
+    /* color: #d4af37; */
+    color: #fce38a;
+}
+
+@media screen and (max-width: 380px) {
+    .about-content {
+        padding-top: 50%;
+    }
+}

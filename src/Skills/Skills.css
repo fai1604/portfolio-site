@@ -1,0 +1,62 @@
+.skills-header {
+    font-family: Spartan;
+    font-weight: 700;
+    color: #f1aa9b;
+}
+
+.skills-content {
+    margin-top: 12%;
+}
+
+.skills-desc {
+    font-family: Poppins;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.skills-category-header {
+    font-family: Spartan;
+    font-weight: 600;
+}
+
+.skills-category-container {
+    align-content: center !important;
+}
+
+.skills-category-desc {
+    margin: 10%;
+    animation: mymove 2s linear infinite;
+    animation-delay: 1s;
+}
+
+.skills-category-desc-odd {
+    margin: 10%;
+    animation: mymove 2s linear infinite;
+}
+
+@keyframes mymove {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .skills-category-header {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .skills-header {
+        padding-top: 20%;
+    }
+
+    .menu:active {
+        opacity: 0.8;
+    }
+}
