@@ -1,10 +1,8 @@
-import { HashLink } from 'react-router-hash-link'
-// import { Grid, makeStyles, Typography, Button } from '@material-ui/core'
-import { useState, useRef, useEffect } from 'react'
 import { Navbar as Nv } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
 import NavLink from 'react-bootstrap/NavLink'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import { Link } from 'react-scroll'
 import './Navbar.css'
 
@@ -12,11 +10,10 @@ const Navbar = () => {
     
     return ( 
         <Nv 
-            collapseOnSelect
             sticky='top'
             className='nv'
             variant='dark'
-            expand='lg'
+            expand='md'
         >
             <Nv.Toggle aria-controls="responsive-navbar-nav" />
             <Nv.Collapse id="responsive-navbar-nav">
@@ -40,6 +37,11 @@ const Navbar = () => {
                         <Link to='projects' smooth={true} spy={true} duration={500} className='nav-link' activeClass='nav-item active'>
                             Projects
                         </Link>
+                    </NavLink>
+                    <NavLink>
+                    <Link to='contact' smooth={true} spy={true} duration={500} className='nav-link' activeClass='nav-item active'>
+                        Contact
+                    </Link>
                     </NavLink>
                 </Nav>
             </Nv.Collapse>

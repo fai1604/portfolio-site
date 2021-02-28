@@ -7,7 +7,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: #008891; */
 }
 
 .typing-effect {
@@ -23,38 +22,11 @@
     text-align: center;
     font-family: Poppins;
     font-weight: 300;
+    font-size: 20px;
 }
 
 .social-media {
     text-align: center;
-}
-
-.arrow-down-container {
-    position: relative;
-    text-align: center;
-    margin-top: 3.5rem;
-    /* bottom: 10%;
-    left: 48.5%; */
-    animation: pulse 2s infinite;
-}
-
-.arrow-up-container {
-    position: fixed;
-    bottom: 2%;
-    right: 2%;
-    transform: (2%, 2%);
-    animation: upwards 2s infinite;
-}
-
-.arrow-down {
-    color: #008891;
-}
-
-.arrow-down:hover {
-    color: #f0c38e !important;
-    animation-name: pulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
 
 .social-media > a {
@@ -77,9 +49,9 @@
     }
 }
 
-@keyframes pulse {
-    50% {
-        transform: scale(1.2);
+@media screen and (max-width: 768px) {
+    .desc {
+        font-size: 15px;
     }
 }
 

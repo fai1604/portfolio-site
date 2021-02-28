@@ -2,7 +2,33 @@
     margin-top: 12%;
 }
 
-.card-header {
+.projects-header {
     font-family: Spartan;
     font-weight: 700;
+    color: #f1aa9b;
+}
+
+.projects-desc {
+    font-family: Poppins;
+    font-size: 20px;
+    color: #e7e7de;
+}
+
+.card-header {
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-content {
+        padding-top: 20%;
+    }
+
+    .projects-column {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .projects-desc {
+        font-size: 15px;
+    }
 }

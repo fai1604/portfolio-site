@@ -1,7 +1,5 @@
 import FullHeight from 'react-full-height'
 import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Tab from 'react-bootstrap/Tab'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
@@ -30,13 +28,17 @@ const Projects = () => {
     
     return (  
         <FullHeight id='projects'>
-            <Container className='projects-content'>
+            <Container className='projects-content' id='projects'>
+                <h1 className='projects-header'>Projects</h1>
+                <p className='projects-desc'>Here are some of my mini projects I've worked on so far. Visit my <a href='http://github.com/fai1604'>Github</a> for more!</p>
                 <Row>
                     {projects.map((project) => (
-                        <Col>
+                        <Col xs={12} sm={6} className='projects-column'>
                             <Card>
                                 <Card.Body>
-                                    <Card.Title>{project.name}</Card.Title>
+                                    <Card.Title>
+                                        {project.name}
+                                    </Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted">{project.components}</Card.Subtitle>
                                     <Card.Text>
                                     {project.desc}

@@ -10,7 +10,10 @@
 
 .education-desc {
     font-family: Poppins;
+    font-size: 20px;
     text-align: justify;
+    color: #e7e7de;
+    margin-bottom: 40px;
 }
 
 .education-toast {
@@ -41,11 +44,21 @@
 }
 
 @media screen and (max-width: 380px) {
-    .hidden {
-        visibility: hidden;
+    .education-category-header {
+        padding-top: 20%;
+    }
+    
+    .education-content {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .education-content {
+        margin-top: 12%;
     }
 
-    .education-content {
-        padding-top: 20%;
+    .education-desc {
+        font-size: 15px;
     }
 }

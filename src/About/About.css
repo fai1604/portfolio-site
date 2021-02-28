@@ -1,18 +1,5 @@
 .about-content {
-    position: relative;
-}
-
-.about-content-container {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);   */
-}
-
-.image {
-    width: 20rem;
-    height:20rem;
-    justify-content: left;
+    margin-top: 18%;
 }
 
 .about-header {
@@ -22,18 +9,29 @@
 }
 
 .about-desc {
-    text-align: left !important;
+    text-align: justify;
     font-family: Poppins;
     font-weight: 300;
+    font-size: 20px;
+    color: #e7e7de;
 }
 
 .highlighted {
-    /* color: #d4af37; */
     color: #fce38a;
 }
 
 @media screen and (max-width: 380px) {
     .about-content {
-        padding-top: 50%;
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-header {
+        padding-top: 20%;
+    }
+    
+    .about-desc {
+        font-size: 15px;
     }
 }

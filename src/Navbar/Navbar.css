@@ -1,13 +1,13 @@
 .nv {
     font-family: Spartan;
+    opacity: 0.8;
 }
 
 .menu {
-    /* margin: 0 auto; */
+    margin: 0 auto;
     display: flex;
     text-align: center;
-    color: #312c51;
-
+    color: #9896a8;
 }
 
 .nav-link:hover {
@@ -19,12 +19,18 @@
 }
 
 @media screen and (max-width: 380px) {
-    .menu {
-        /* text-align: left; */
+    .nav-link {
+        margin: auto -4px;
     }
 
     .menu:active {
         opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        font-size: 15px;
     }
 }
 

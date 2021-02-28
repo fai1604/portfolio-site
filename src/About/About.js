@@ -1,19 +1,12 @@
-import { useState } from 'react'
 import FullHeight from 'react-full-height'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
 import './About.css'
 
 
 const About = () => {
-    
-    const [IsClicked, setIsClicked] = useState(false)
-    const handleClick = (e) => {
-        setIsClicked(!IsClicked)
-    }
-
+   
     return ( 
         <FullHeight id='about' canExceed={true}>
             <Container className='about-content'>
@@ -29,7 +22,7 @@ const About = () => {
                             I was born, raised and currently living in <span className="highlighted">Miri, Sarawak</span>.
                             <br/>
                             <br/>
-                            I am currently focusing on <span className="highlighted">front-end web development</span> and my dream is to become a full-stack web developer
+                            I am currently focusing on <span className="highlighted">front-end web development</span> and I plan to be a full-stack web developer
                             after I graduate <span className="highlighted">(expected graduation : Sept 2023)</span>
                             <br/>
                             <br/>

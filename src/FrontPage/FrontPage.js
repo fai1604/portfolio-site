@@ -39,19 +39,8 @@ const FrontPage = () => {
                             <FontAwesomeIcon icon={['fab', 'google']} size='2x' />
                         </a>
                     </div>
-                    <div className='arrow-down-container'>
-                        <Link to='about' smooth={true} spy={true} duration={500} className='arrow-down' activeClass='arrow-down hover'>
-                            <FontAwesomeIcon icon={faArrowCircleDown} size='3x' />
-                        </Link>
-                    </div>
+                    
                 </div>
-                
-                
-                {/* <div className='arrow-up-container'>
-                    <Link to='navbar' smooth={true} spy={true} duration={500} className='arrow-down' activeClass='arrow-down hover'>
-                        <FontAwesomeIcon icon={faArrowCircleUp} size='3x' />
-                    </Link>
-                </div> */}
             </Container>
         </FullHeight>
     );
