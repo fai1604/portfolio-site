@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom'
 import './App.css';
 import Navbar from './Navbar/Navbar';
 import About from './About/About';
@@ -9,10 +8,8 @@ import { fab, faGithub, faLinkedin, faInstagram, faGoogle } from '@fortawesome/f
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
 import { fas, faLink, faArrowCircleDown, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import Particles from 'react-particles-js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
 
 library.add(fab, faGithub, faLinkedin, faInstagram, faGoogle);
 library.add(fas, faLink, faArrowCircleDown, faEnvelope)
