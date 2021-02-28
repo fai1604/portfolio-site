@@ -1,15 +1,7 @@
-import { Icon } from '@material-ui/core'
-import ReactTypingEffect from 'react-typing-effect';
-import Particles from 'react-particles-js'
 import FullHeight from 'react-full-height'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import './FrontPage.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowCircleDown, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-scroll'
 
 
 const FrontPage = () => {
@@ -39,7 +31,6 @@ const FrontPage = () => {
                             <FontAwesomeIcon icon={['fab', 'google']} size='2x' />
                         </a>
                     </div>
-                    
                 </div>
             </Container>
         </FullHeight>
