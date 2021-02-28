@@ -39,7 +39,7 @@
     color: #008891;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
     .typing-effect {
         font-size: 3rem;
     }
