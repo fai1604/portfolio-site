@@ -40,16 +40,16 @@
 }
 
 @media screen and (max-width: 380px) {
-    .typing-effect {
-        font-size: 3rem;
-    }
-
     .social-media {
         display: flex;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .typing-effect {
+        font-size: 3rem;
+    }
+    
     .desc {
         font-size: 15px;
     }
