@@ -30,7 +30,7 @@ const Education = () => {
                         <Toast.Body className='education-toast-body'>
                             <Badge variant="primary" className='education-badge'>University of Malaya</Badge>
                             <br/>
-                            <Badge variant="success" className='education-badge'>CGPA : 3.39</Badge>
+                            <Badge variant="success" className='education-badge'>CGPA : 3.55</Badge>
                             <div className='education-badge-p'>
                                 <br/>
                                 <p>
